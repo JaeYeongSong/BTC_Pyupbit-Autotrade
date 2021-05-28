@@ -27,6 +27,9 @@ myBTC = f"나의 BTC 잔고 : {myBTCs}"
 post_message(myToken,"#stock", myKRW)
 post_message(myToken,"#stock", myBTC)
 
+print(myKRW)
+print(myBTC)
+
 # 비트코인 결재 전 잔고
 BeforemyKRW = f"나의 비트코인 구매 전 KRW 잔고 : {myKRWs}"
 BeforemyBTC = f"나의 비트코인 구매 전 BTC 잔고 : {myBTCs}"
@@ -91,6 +94,7 @@ schedule.every().hour.do(lambda: predict_price("KRW-BTC"))
 
 # 로그인
 upbit = pyupbit.Upbit(access, secret)
+print("비트코인 자동화 시작합니다.")
 # 시작 메세지 슬랙 전송
 post_message(myToken,"#stock", "비트코인 자동화 시작합니다.")
 
@@ -114,6 +118,9 @@ while True:
                     post_message(myToken,"#stock", BeforemyKRW)
                     post_message(myToken,"#stock", BeforemyBTC)
 
+                    print(BeforemyKRW)
+                    print(BeforemyBTC)
+
                     # 비트코인 매수하기
                     buy_result = upbit.buy_market_order("KRW-BTC", krw*0.9995)
 
@@ -122,6 +129,9 @@ while True:
                     # 내 비트코인 구매 후 잔고 스톡으로 보내기 
                     post_message(myToken,"#stock", AftermyKRW)
                     post_message(myToken,"#stock", AftermyBTC)
+
+                    print(AftermyKRW)
+                    print(AftermyBTC)
         else:
             btc = get_balance("BTC")
             if btc > 0.00008:
@@ -129,5 +139,6 @@ while True:
                 post_message(myToken,"#stock", "BTC buy : " +str(sell_result))
         time.sleep(1)
     except Exception as e:
+        print(e)
         post_message(myToken,"#stock", e)
         time.sleep(1)
