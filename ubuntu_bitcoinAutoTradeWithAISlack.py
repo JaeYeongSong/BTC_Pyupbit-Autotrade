@@ -7,7 +7,7 @@ from fbprophet import Prophet
 
 access = "gZcEWFSMlT7bBuesSNtyPvVbGiM4754Hh6BIG02n"
 secret = "zDI7wgqOZx51f9Av3LiK1YFczZWaqwjC45AfN6Pg"
-myToken = "xoxb-2069540101936-2038962172598-UMoO90mGFXIFDPJSiVSegZPe"
+myToken = "xoxb-2069540101936-2038962172598-TAbFTFbOz5S7Zc2BuNkvGsFf"
 
 def post_message(token, channel, text):
     """슬랙 메시지 전송"""
