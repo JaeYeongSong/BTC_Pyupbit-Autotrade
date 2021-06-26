@@ -1,4 +1,4 @@
-# BTC
+# BTC_Pyupbit-Autotrade
 bitcoinAutoTradeWithAISlack.py 변동성 돌파전략 알고리즘(+이동평균선, 인공지능 자동매매)  
 조코딩(비트코인 자동매매-https://youtu.be/5vofEMqMyGk)
 
