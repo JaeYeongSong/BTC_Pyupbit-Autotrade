@@ -22,10 +22,12 @@ def restart():
     myKRW = f"나의 KRW 잔고 : {myKRWs}"
     myBTC = f"나의 BTC 잔고 : {myBTCs}"
 
+    # 맨 위에 '---'표시는 전에 전송된 정보와 구분하기 위해 사용했습니다
     post_message(myToken,"#balance", "-------------------------------------------------")
     post_message(myToken,"#balance", myKRW)
     post_message(myToken,"#balance", myBTC)
 
+    # 몇초마다 반복하는지 설정합니다(초(s) 단위)
     threading.Timer(300, restart).start()
 
 restart()
