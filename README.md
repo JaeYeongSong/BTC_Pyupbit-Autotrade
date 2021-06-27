@@ -1,5 +1,6 @@
 # BTC_Pyupbit-Autotrade
-Tistory 블로그 xsop - https://xsop.tistory.com
+Tistory 블로그 Xsop - https://xsop.tistory.com
+네이버 블로그 Xsop - https://blog.naver.com/songjy08
 
 bitcoinAutoTradeWithAISlack.py 변동성 돌파전략 알고리즘(+이동평균선, 인공지능 자동매매)  
 조코딩(비트코인 자동매매-https://youtu.be/5vofEMqMyGk)
