@@ -1,7 +1,7 @@
 import pyupbit
 
-access = "gZcEWFSMlT7bBuesSNtyPvVbGiM4754Hh6BIG02n"
-secret = "zDI7wgqOZx51f9Av3LiK1YFczZWaqwjC45AfN6Pg"
+access = "your access"
+secret = "your secret"
 upbit_Token = pyupbit.Upbit(access, secret)
 
 my_krw = upbit_Token.get_balance("KRW") # 보유 원화 조회
