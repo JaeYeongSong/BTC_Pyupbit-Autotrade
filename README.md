@@ -11,4 +11,4 @@ cell_bitcoinAutoTradeWithAISlack.py 파일은 bitcoinAutoTradeWithAISlack.py에�
 
 AT_basic 폴더는 AutoTrade_basic의 약자로 예제파일들이 있는 곳 입니다.
 AT_basic 폴더 안에 있는 파일의 내용은 저의 티스토리 블로그에
-'비트코인 자동 매매 - https://xsop.tistory.com/category/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%20%EC%9E%90%EB%8F%99%20%EB%A7%A4%EB%A7%A4' 카테고리에서 확인하시기 바랍니다.
+'비트코인 자동 매매 - https://xsop.tistory.com/category/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%20%EC%9E%90%EB%8F%99%20%EB%A7%A4%EB%A7%A4' 에서 확인하시기 바랍니다.
